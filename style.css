@@ -86,4 +86,44 @@ html {
     width: 90%;
     margin: 1.5rem 0;
     font-style: italic;
+    text-align: center;
+}
+
+.card button {
+    width: 12rem;
+    padding: .7rem;
+    margin: 1rem 0;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    border-radius: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #eee;
+    box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .4);
+}
+
+.social-icons {
+    width: 12rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0 2rem 0;
+    border-top: .1rem solid #999;
+    padding-top: 2rem;
+}
+
+.social-icons i {
+    font-size: 1.8rem;
+}
+
+.fa-youtube {
+    color: #cd201f;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-google-plus-g {
+    color: #dd4b39;
 }
