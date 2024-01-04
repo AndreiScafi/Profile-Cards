@@ -27,6 +27,29 @@ html {
     text-align: center;
 }
 
+.heading::after {
+    content: '';
+    position: absolute;
+    width: .5rem;
+    height: 5.5rem;
+    background-color: #fff;
+    animation: blinking 1s 3s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: #fff;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #fff;
+    }
+}
+
 .cards-wrapper {
     width: 80%;
     display: flex;
