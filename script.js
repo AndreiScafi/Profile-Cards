@@ -8,9 +8,6 @@ const typing = () => {
         i++;
         setTimeout(typing, 150);
     }
-    console.log(i);
-
-
 };
 
 typing();
